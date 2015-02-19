@@ -59,9 +59,5 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/i9300/include
 # TWRP
 DEVICE_RESOLUTION := 720x1280
 
-# Camera wrapper
-COMMON_GLOBAL_CFLAGS += -DNEEDS_VECTORIMPL_SYMBOLS
-TARGET_PROVIDES_CAMERA_HAL := true
-
 # inherit from the proprietary version
 -include vendor/samsung/i9300/BoardConfigVendor.mk

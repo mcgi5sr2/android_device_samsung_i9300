@@ -1,21 +1,21 @@
 [
   {
-    "remote": "omnirom",
-    "repository": "android_kernel_samsung_smdk4412",
+    "remote": "github",
+    "repository": "mcgi5sr2/kernel_samsung_smdk4412",
     "target_path": "kernel/samsung/smdk4412",
-    "revision": "android-5.1"
+    "revision": "lp5.1-wip"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_hardware_samsung",
+    "remote": "github",
+    "repository": "mcgi5sr2/android_hardware_samsung",
     "target_path": "hardware/samsung",
-    "revision": "android-5.1"
+    "revision": "omni-wip"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_device_samsung_smdk4412-common",
+    "remote": "github",
+    "repository": "mcgi5sr2/android_device_samsung_smdk4412-common",
     "target_path": "device/samsung/smdk4412-common",
-    "revision": "android-5.1"
+    "revision": "omni-wip"
   },
   {
     "remote": "omnirom",

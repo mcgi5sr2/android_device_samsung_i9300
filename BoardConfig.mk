@@ -39,6 +39,10 @@ RECOVERY_FSTAB_VERSION := 2
 BOARD_SEPOLICY_DIRS := \
     device/samsung/i9300/selinux
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5ad134229efd1ef97204629c6b9cb20db78d342f
 BOARD_SEPOLICY_UNION += \
     bluetooth.te \
     device.te \

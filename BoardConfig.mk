@@ -30,7 +30,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9300/bluetooth
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := custom_i9300_defconfig
-BOARD_KERNEL_CMDLINE := console=ttySAC2,115200 consoleblank=0 androidboot.selinux=
+BOARD_KERNEL_CMDLINE := console=ttySAC2,115200 consoleblank=0 androidboot.selinux=enforcing
 
 # Selinux
 BOARD_SEPOLICY_DIRS := \

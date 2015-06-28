@@ -30,11 +30,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/i9300/bluetooth
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
 TARGET_KERNEL_CONFIG := custom_i9300_defconfig
-BOARD_KERNEL_CMDLINE := console=ttySAC2,115200 consoleblank=0 androidboot.selinux=enforcing
-
-# Recovery
-TARGET_RECOVERY_FSTAB := device/samsung/i9300/rootdir/fstab.smdk4x12
-RECOVERY_FSTAB_VERSION := 2
+BOARD_KERNEL_CMDLINE := console=ttySAC2,115200 consoleblank=0 androidboot.selinux=
 
 # Selinux
 BOARD_SEPOLICY_DIRS := \
@@ -68,8 +64,9 @@ TARGET_OTA_ASSERT_DEVICE := m0,i9300,GT-I9300
 # Device specific header overrides
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/i9300/include
 
-# TWRP
-DEVICE_RESOLUTION := 720x1280
-
 # inherit from the proprietary version
 -include vendor/samsung/i9300/BoardConfigVendor.mk
+
+# Recovery
+TARGET_RECOVERY_FSTAB := device/samsung/i9300/rootdir/fstab.smdk4x12
+RECOVERY_FSTAB_VERSION := 2
